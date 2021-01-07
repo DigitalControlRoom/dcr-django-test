@@ -19,14 +19,14 @@ Please don't spend more than 2 hours on this task (not including initial downloa
 The instructions below are for use with venv, but of course you can setup the project however is most comfortable for you (virtualenv, pipenv, etc.). You will need python3.5+ to run this code.
 
 ```bash
-git clone git@github.com:<TBC>
+git clone https://github.com/DigitalControlRoom/dcr-django-test.git
 python3 -m venv dcr-django-test-env
 source dcr-django-test-env/bin/activate
 
 cd dcr-django-test
 git remote remove origin
 git remote add origin <Your Repository>
-pip install -r requiremetns.txt
+pip install -r requirements.txt
 
 cd testsite
 python manage.py runserver
