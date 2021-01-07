@@ -1,6 +1,6 @@
 # Digital Control Room - Django Test
 
-Thank you for thaking the time to complete this exercise.
+Thank you for taking the time to complete this exercise.
 
 ## Introduction
 
